@@ -12,3 +12,14 @@ snippet defp "def function do" b
 	def ${1:name} do
 		${2}
 	end
+
+snippet modoc "moduledoc multi line" b
+	@moduledoc """
+	${1}
+	"""
+
+snippet modoc1 "moduledoc one line" b
+	@moduledoc "${1}"
+
+snippet modocfalse "moduledoc false" b
+	@moduledoc false
