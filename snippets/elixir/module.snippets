@@ -23,3 +23,14 @@ snippet modoc1 "moduledoc one line" b
 
 snippet modocfalse "moduledoc false" b
 	@moduledoc false
+
+snippet doc "doc multi line" b
+	@doc """
+	${1}
+	"""
+snippet doc1 "doc one line" b
+	@doc "${1}"
+
+snippet docfalse "doc false" b
+	@doc false
+
